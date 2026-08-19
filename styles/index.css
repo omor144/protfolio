@@ -1,0 +1,12 @@
+.navigation{
+    background-color: #dfcdcd;
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav-items{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+}
