@@ -1,12 +1,53 @@
+*{
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+
+header{
+    background-color: #dfcdcd;
+    padding: 2px 0;
+    text-align: center;
+}
+/* navigation bar section stylle */
 .navigation{
     background-color: #dfcdcd;
     display: flex;
     justify-content: space-between;
+    max-width: 1200px;
+    padding:5px 0;
+    margin: 0 auto;
 
 }
-.nav-items{
-    display: flex;
-    gap: 20px;
-    list-style: none;
-    align-items: center;
+/* logo styles */
+.logo h1{
+    
+    font-weight: bold;
+    font-size: 40px;
+    color: #000;
 }
+/* navigation items styles */
+.nav-items{
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    
+}
+ /* univarsal button style  */
+.button{
+background-color: #fd6e0a;
+padding: 4px 8px;
+font-weight: bold;
+border-radius:10px;
+font: size 20px; 
+color: white;
+}
+
+/* logo span styles */
+#omor{
+    color:#fd6e0a;
+}
+
