@@ -2,17 +2,18 @@
     font-family: "Open Sans", sans-serif;
     margin: 0;
     padding: 0;
+    background-color: rgba(248, 247, 244, 0.416);
    
 }
 
 header{
-    background-color: #dfcdcd;
+    /* background-color: #dfcdcd; */
     padding: 2px 0;
     text-align: center;
 }
 /* navigation bar section stylle */
 .navigation{
-    background-color: #dfcdcd;
+    /* background-color: #dfcdcd; */
     display: flex;
     justify-content: space-between;
     max-width: 1200px;
@@ -24,26 +25,27 @@ header{
 .logo h1{
     
     font-weight: bold;
-    font-size: 40px;
+    font-size: 30px;
     color: #000;
 }
-/* navigation items styles */
+/* (ul) navigation items styles */
 .nav-items{
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 20px;
     display: flex;
     gap: 50px;
     list-style: none;
+    align-items: center;
     
 }
  /* univarsal button style  */
 .button{
 background-color: #fd6e0a;
-padding: 4px 8px;
+padding: 10px 20px;
 font-weight: bold;
-border-radius:10px;
+border-radius:5px;
 font: size 20px; 
 color: white;
+border: none;
 }
 
 /* logo span styles */
@@ -51,3 +53,14 @@ color: white;
     color:#fd6e0a;
 }
 
+/* Start with Hero section style */
+.hero_parent{
+    background-color: rgb(251, 242, 231);
+}
+.hero_section{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+}
