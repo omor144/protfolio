@@ -1,0 +1,179 @@
+/* =========================
+   RESET
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+/* =========================
+   COMMON CONTAINER
+========================= */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+    padding: 2px 0;
+}
+
+
+/* =========================
+   NAVIGATION
+========================= */
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2px;
+}
+
+
+/* Logo */
+
+.logo h1 {
+    font-weight: bold;
+    font-size: 30px;
+    color: #000;
+}
+
+#omor {
+    color: #fd6e0a;
+}
+
+
+/* Navigation items */
+
+.nav-items {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+}
+
+
+/* =========================
+   COMMON BUTTON
+========================= */
+
+.Common_button{
+    background-color: #fd6e0a;
+    padding: 8px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    
+}
+.Common_button:hover{
+
+    background-color: #d3c2b5;
+    color: rgb(224, 69, 69);
+}
+/* =========================
+   OUT LINE BUTTON
+========================= */
+
+.outline_button{
+    background-color:rgb(255, 255, 255) ;
+    color:#fd6e0a;
+}
+
+
+
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero_parent {
+    background-color: rgba(225, 246, 206, 0.797);
+}
+
+.hero_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 500px;
+}
+
+
+/* Left side */
+
+.hero_left_side {
+    width: 50%;
+}
+
+.hero_left_side .p_header {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 8px;
+}
+
+.hero_left_side h2 {
+    font-size: 45px;
+    font-weight: bold;
+    margin: 12px 0;
+}
+.hero_left_side p{
+    margin: 12px;
+}
+
+/* .hero_left_side > p {
+    max-width: 550px;
+    line-height: 2.6;
+} */
+
+
+/* Buttons */
+
+/* .hero_buttons {
+    margin-top: 20px;
+} */
+
+
+/* Right side */
+.hero_right_side {
+    width: 50%;
+    text-align: right;
+}
+
+.hero_right_side img {
+    width: 500px;
+    max-width: 100%;
+}
+
+/* =========================
+   About SECTION
+========================= */
+.about{
+    display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+
+}

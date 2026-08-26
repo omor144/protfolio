@@ -1,66 +1,99 @@
-*{
-    font-family: "Open Sans", sans-serif;
+
+
+* {
     margin: 0;
     padding: 0;
-    background-color: rgba(248, 247, 244, 0.416);
-   
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
 }
 
-header{
-    /* background-color: #dfcdcd; */
-    padding: 2px 0;
-    text-align: center;
-}
-/* navigation bar section stylle */
-.navigation{
-    /* background-color: #dfcdcd; */
-    display: flex;
-    justify-content: space-between;
+/* Common container */
+.container {
     max-width: 1200px;
-    padding:5px 0;
     margin: 0 auto;
 
 }
-/* logo styles */
-.logo h1{
+
+/* Header */
+header {
+    padding: 2px 0;
     
+}
+
+/* Navigation */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.logo h1 {
     font-weight: bold;
     font-size: 30px;
     color: #000;
 }
-/* (ul) navigation items styles */
-.nav-items{
-    font-size: 20px;
+
+#omor {
+    color: #fd6e0a;
+}
+
+/* Navigation items */
+.nav-items {
     display: flex;
     gap: 50px;
-    list-style: none;
     align-items: center;
-    
-}
- /* univarsal button style  */
-.button{
-background-color: #fd6e0a;
-padding: 10px 20px;
-font-weight: bold;
-border-radius:5px;
-font: size 20px; 
-color: white;
-border: none;
+    list-style: none;
+    font-size: 20px;
 }
 
-/* logo span styles */
-#omor{
-    color:#fd6e0a;
+/* Button */
+.button {
+    background-color: #fd6e0a;
+    padding: 8px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    margin: 10px;
+}
+/* End of Navigation */
+/* Hero full-width background */
+.hero_parent {
+    background-color: rgba(225, 246, 206, 0.797);
 }
 
-/* Start with Hero section style */
-.hero_parent{
-    background-color: rgb(251, 242, 231);
-}
-.hero_section{
+/* Hero layout */
+.hero_section {
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
     align-items: center;
+    min-height: 500px; 
+}
+
+/* Hero left */
+.hero_left_side {
+    width: 50%;
+}
+
+.hero_left_side h2 {
+    font-size: 45px;
+    font-weight: bold;
+}
+/* 
+.hero_left_side .p_heder {
+    font-size: 25px;
+    font-weight: 600;
+} */
+
+/* Hero right */
+.hero_Right_side {
+    width: 40%;
+    text-align:right;
+}
+
+.hero_Right_side img {
+    max-width: 100%;
+     width: 500px;
 }
